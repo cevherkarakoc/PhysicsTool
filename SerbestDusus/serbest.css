@@ -1,0 +1,62 @@
+﻿#myCanvas{
+	border:solid 1px;
+	float:left;
+	margin-top:5px;
+	margin-left:15px;
+}
+#yonetimKutu{
+	float:left;
+	margin-left:30px;
+	width:180px;
+}
+.oynatici{
+	float:left;
+	margin-top:15px;
+	margin-left:10px;
+	height:45px;
+	width:160px;
+	font-size:23px;
+}
+#talepKutu{
+	float:left;
+	margin-left:30px;
+	width:550px;
+	height:179px;
+}
+#sol{
+	float:left;
+	width:100px;
+	height:179px;
+}
+#sag{
+	float:left;
+	width:430px;
+	height:179px;
+}
+#iz{
+	float:left;
+	margin-left:15px;
+	margin-top:23px;
+}
+.kayar{
+	float:left;
+	width:400px;
+	margin-left:0px;
+	margin-top:5px;
+}
+.soru{
+	font-size:18px;
+	margin-bottom:45px;
+}
+#ust{
+	float:left;
+	height:250px;
+	width:auto;
+}
+#gosteriKutu{
+	float:left;
+	margin-left:30px;
+}
+.sonuc{
+	font-size:30px;
+}
