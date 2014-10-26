@@ -1,4 +1,4 @@
-.oynatici{
+.player{
 	height:50px;
 	font-size:25px;
 	float:left;
@@ -11,59 +11,47 @@
 	font-size:18px;
 	margin-top:10px;
 }
-#tercih1{
-	display: inline-block;  
-	width:16px;
-	height:16x;
 
-
-}
-#tercih2{
-	display: inline-block;  
-	width:16x;
-	height:16x;
-	margin-top:15px;
-}
 #myCanvas{
 	float:left;
 	border:solid 1px;
 }
-#canvasKutu{
+#canvasBox{
 }
-#yonetimKutu{
+#manageBox{
 	float:left;
 	margin-left:9px;
 	width:350px;
 	height:100px;
 }
-#gosteriKutu{
+#showBox{
 	float:left;
 	margin-left:50px;
 	margin-top:5px;
 	width:350px;
 	height:auto;
 }
-.sonuc{
+.result{
 	margin-left:9px;
 	font-size:18px;
 }
-#talep{
+#req{
 	float:left;
-	width:400px;
+	width:420px;
 	height:auto;
 }
-.girdi{
+.inputt{
 	float:left;
-	margin-left:9px;
+	margin-left:3px;
 	width:75px;
 	font-size:15px;
 	margin-top:20px;
 	
 	
 }
-.soru{
+.query{
 	float:left;
-	margin-left:20px;
+	margin-left:5px;
 	font-size:20px;
 }
 .ek{
@@ -74,53 +62,24 @@
 #ranger{
 	z-index: -1;
 }
-#faktor{
+#factor{
 	margin-left:20px;
 	margin-right:40px;
 	margin-top:10px;
 	width:550px;
 }
-#sol{
+#left{
 	float:left;
 	width:800px;
 }
-#hakkindaKutu{
-	float:left;
-	margin-top:35px;
-	width:1300px;
-	height:auto;
-	border:double 5px green;
+
 }
-#logo{
-	float:left;
-	height:256px;
-	width:256px;
-	margin-top:15px;
-	margin-bottom:15px;
-	margin-left:15px;
-	border:solid 2px;
-	border-radius:45px;
-}
-#isim{
-	float:left;
-	margin-left:17px;
-	margin-top:35px;
-}
-#aciklamaKutu{
-	float:left;
-	width:280px;
-}
-.aciklama{
-	float:left;
-	margin-left:20px;
-	font-size:18px;
-	
-}
+
  #ust{
 	
  }
  
- #geri{
+ #mainPageButton{
 	float:left;
 	margin-top:150px;
 	margin-left:150px;

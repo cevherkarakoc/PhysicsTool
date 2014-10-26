@@ -1,0 +1,45 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projectile Motion</title>
+	<script src="Processing/processing.min.js"></script>
+	<link href="Projectile/projectile.css" rel="stylesheet" />
+
+</head>
+<body >
+	<div id=ust>
+	<div id="canvasBox">
+		<canvas id="myCanvas" width="1300" height="500"></canvas>
+	</div>
+	<div id=left>
+	<div id="manageBox">
+		<button type="button"  class="player" onclick="p.noLoop();">Stop</button>
+		<button type="button"  class="player" onclick="p.loop();" >Play</button>
+		<button type="button"  class="player" onclick="p.setup();" >Set</button>
+	</div>	
+	<div id="req">
+		<p class="query">Velocity : </p>
+		<input type="form" name="firstVelocity" id="firstVelocity" class="inputt" value="20">
+		<p class="ek">m/s</p>
+		<p class="query">Angle : </p>
+		<input type="form" name="degree" id="degree" class="inputt" value="45">
+		<p class="ek">Degree</p>
+	</div>
+	<div id="ranger">
+		<input type="range" name="factor" id="factor" min="5" max="45" value="15">
+		Draw Path :
+		<input type="checkbox" name="path" id="path" value="pathT">
+	</div>
+	</div>
+	<div id="showBox">
+		<p id="pFlyT" class="result"></p>
+		<p id="pMaxY" class="result"></p>
+		<p id="pMaxX" class="result"></p>
+		
+	</div>
+	</div>
+	
+	<script src="Projectile/projectile.js"></script>
+</body>
+</html>	
